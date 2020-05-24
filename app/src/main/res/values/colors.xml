@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5c6bc0</color>
+    <color name="colorPrimaryDark">#26418f</color>
+    <color name="colorAccent">#3f51b5</color>
+    <color name="white">#fff</color>
+    <color name="gray">#fafafa</color>
+    <color name="cell_background_color">#ffffff</color>
+    <color name="header_line_color">#0a0a0a</color>
+    <color name="table_view_default_text_color">#0a0a0a</color>
+
+    <dimen name="cell_height">60dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+
+    <!-- Overriding the default values of the tableView -->
+    <dimen name="default_row_header_width">55dp</dimen>
+    <dimen name="default_column_header_height">60dp</dimen>
+</resources>

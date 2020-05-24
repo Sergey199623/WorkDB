@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WorkDB</string>
+    <string name="admin_name">Вася Пупкин</string>
+    <string name="admin_role">Директор фирмы</string>
+    <string name="dep_title">Департаменты</string>
+    <string name="user_title">Сотрудники</string>
+    <string name="fragment_title">Информация</string>
+    <string name="empty">Пусто</string>
+    <string name="menu_add">Добавить</string>
+</resources>

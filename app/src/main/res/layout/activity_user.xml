@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        app:titleTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/item_name"
+            style="@style/EditTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите имя"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:maxLength="50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_family"
+            style="@style/EditTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите фамилию"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:maxLength="50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_role"
+            style="@style/EditTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите должность"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:maxLength="50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_address"
+            style="@style/EditTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите адрес"
+            android:imeOptions="actionDone"
+            android:inputType="textCapWords|textMultiLine"
+            android:maxLines="2"
+            android:maxLength="50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/item_dep"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Switch
+            android:padding="5dp"
+            android:theme="@style/SwitchTheme"
+            android:id="@+id/item_homework"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/accent"
+            android:text="Работает удалено"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Изменить" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E53935"
+            android:text="Удалить" />
+
+    </LinearLayout>
+</LinearLayout>
