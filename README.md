@@ -2,4 +2,4 @@
 
 БД учета рабочего времени
 
-![Screenshot](screenshot.mov)
+![Screenshot](gif.gif)
